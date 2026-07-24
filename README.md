@@ -1,93 +1,47 @@
-# My Linear Regression Library
+# 📈 My Linear Regression Library
 
-A Linear Regression model built completely from scratch using **NumPy** and **Gradient Descent**.
+A Linear Regression model built completely from scratch using NumPy and Gradient Descent.
 
-This project was created to understand how Linear Regression works internally without relying on machine learning libraries.
+## 🚀 Features
 
-## Features
-
-- Linear Regression implemented from scratch
-- Gradient Descent optimization
-- Prediction on new data
+- Linear Regression from scratch
+- Gradient Descent
+- Prediction
 - Mean Squared Error (MSE)
 - R² Score
 - Comparison with scikit-learn
-- Training loss visualization
 
-## Project Structure
-
-```
-.
-├── linear_regression.py
-├── metrics.py
-├── example.py
-├── requirements.txt
-└── README.md
-```
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/m1deey/My_LinearRegression_library.git
-```
-
-Install the required packages:
+## 📦 Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
-
-Run the example:
+## 💻 Usage
 
 ```bash
-python example.py
+python main.py
 ```
 
-## Example Output
+## 📁 Project Structure
 
 ```
------ My Model -----
-Weights: [...]
-Bias: ...
-MSE: ...
-R²: ...
-
------ scikit-learn -----
-Weights: [...]
-Bias: ...
-MSE: ...
-R²: ...
+My_LinearRegression_library/
+│
+├── linear_regression.py
+├── metrics.py
+├── main.py
+├── README.md
+└── requirements.txt
 ```
 
-## Technologies Used
+## 🔮 Future Improvements
 
-- Python
-- NumPy
-- Matplotlib
-- scikit-learn (for comparison only)
-
-## Learning Goals
-
-This project demonstrates:
-
-- How Gradient Descent updates model parameters
-- How Linear Regression is trained
-- How MSE and R² are calculated
-- How a custom implementation compares with scikit-learn
-
-## Future Improvements
-
-- Mini-batch Gradient Descent
-- L1/L2 Regularization
-- Model saving and loading
+- Mini-Batch Gradient Descent
+- Regularization (L1 & L2)
+- Model Saving and Loading
 - Polynomial Regression
-- Better documentation and unit tests
 
-## Author
+## 👨‍💻 Author
 
-**Yasser**  
 GitHub: https://github.com/m1deey
