@@ -35,6 +35,10 @@ My_LinearRegression_library/
 └── requirements.txt
 ```
 
+## 📈 Graph 
+
+![Results](Images/Screenshot_20260724_152557_Chrome.jpg)
+
 ## 🔮 Future Improvements
 
 - Mini-Batch Gradient Descent
